@@ -1,0 +1,153 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+font-size: 16px;
+line-height: 1.5;
+margin: 0;
+padding: 0;
+-webkit-box-sizing: border-box;
+        box-sizing: border-box;
+background-image: url(Images/yellow-side.svg);
+background-repeat: no-repeat;
+background-position: top 0 right 0;
+color: #333333;
+overflow-x: hidden;
+position: relative;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content-wrapper{
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  
+}
+.container{
+    margin: 0 -15px;
+    position: relative;
+}
+h1{
+    font-size: 73px;
+    color: #181e4b;   
+    line-height: 1.1;
+    font-weight: 700;
+    margin: 0;
+    font-family: Volkhov, sans-serif;
+}
+h2{
+    font-size: 50px;
+    color: #181e4b;   
+    line-height: 1.1;
+    font-weight: 700;
+    margin: 0;
+    font-family: Volkhov, sans-serif;
+}
+h3{
+    font-size: 44px;
+    color: #333333;   
+    line-height: 1.1;
+    font-weight: 500;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+h4{
+    font-size: 25px;
+    color: #5e6282;   
+    line-height: 1.3;
+    font-weight: 700;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+h5{
+    font-size: 20px;
+    color: #df6951;   
+    line-height: 1.1;
+    font-weight: 700;
+    margin-top: 0;
+    font-family: Poppins, sans-serif;
+
+}
+h6{
+    font-size: 18px;
+    color: #5e6282;   
+    line-height: 1.5;
+    font-weight: 500;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+p{
+    font-size: 16px;
+    color: #5e6282;   
+    line-height: 1.1;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+}
+
+a{
+    font-size: 18px;
+    color: #5e6282;   
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration:none;
+    font-family: Poppins, sans-serif;
+}
+ul li{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    h1{
+        font-size: 55px;  
+        line-height: 1;
+    }
+    h2{
+        font-size: 45px;
+        line-height: 1;
+    
+    }
+    h3{
+        font-size: 35px;   
+        line-height: 1;
+    }
+}
+
+@media (max-width:767px){
+    h1{
+        font-size: 50px;  
+        line-height: 1;
+    }
+    h2{
+        font-size: 35px;  
+        line-height: 1;
+    }
+    h3{
+        font-size: 28px; 
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px){
+  .content-wrapper{
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .content-wrapper{
+        max-width: 720px;
+      }
+}
+
+@media(min-width:576px) and (max-width: 767px){
+    .content-wrapper{
+       max-width: 540px;
+    }
+}
+@media (max-width: 1200px){
+    .container{
+        margin: 0px;
+    }
+}
